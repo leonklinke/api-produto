@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: fabricioveronez/api-bootcamp-produto:v2
+          image: leonklinkeandre/api-conversao:latest
           # resources:
           #   requests:
           #     memory: "32Mi"
