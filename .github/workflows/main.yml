@@ -43,7 +43,7 @@ jobs:
           # Path to the Dockerfile
           file: ./src/Dockerfile
           #using teacher image, bus in a real scenario is a good pratice
-          push: false
+          push: true
           tags: |
             leonklinkeandre/api-conversao:latest
             leonklinkeandre/api-conversao:${{github.run_number}}
