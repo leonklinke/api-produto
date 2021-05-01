@@ -58,7 +58,7 @@ jobs:
         uses: Azure/k8s-set-context@v1
         with:
           # Acceptable values: kubeconfig or service-account
-          method: kuberconfig
+          method: kubeconfig
           # Kubernetes Config
           kubeconfig: ${{secrets.K8S_CONFIG}}
        
